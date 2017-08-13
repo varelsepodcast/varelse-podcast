@@ -60,9 +60,10 @@ a:hover {
 
 .big-text {
 	font-size: 2.5em;
-	padding: 2em 2em 0 2em;
+	padding: 1em 1em 0 1em;
 	animation: pulse 5s;
 }
+
 
 @keyframes pulse {
   0% {
@@ -71,6 +72,29 @@ a:hover {
   100% {
     color: #ffffff;
   }
+}
+
+.landing-text {
+	font-size: 1.2em;
+	padding: 1em 1em 0 1em;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	animation: pulse 5s;
+}
+
+
+a.landing-icon {
+	font-size: 1.5em;
+	padding: 4em 2em 0 2em;
+	color: white;
+	text-align: center;
+	animation: pulse 5s;
+}
+
+a.landing-icon:hover {
+	color: white;
+	opacity: 0.8;
 }
 
 /* Menu links */
@@ -92,8 +116,9 @@ a:hover {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
 	border-color: none;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(202,131,235,0.6);
 }
 
 .navbar-default .navbar-brand {
@@ -230,6 +255,11 @@ a:hover {
 
 	.big-text {
 		font-size: 4.2em;
+		padding: 2em 2em 0 2em;
+	}
+
+	.landing-text {
+	font-size: 1.7em;
 	}
 
 	.landing-spacer {
